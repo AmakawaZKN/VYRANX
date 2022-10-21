@@ -21,7 +21,7 @@ say('FANGZBOT\nMD', {
   align: 'center',
   colors: ['blue']
 })
-say(`🌸 FANGZBOT-MD By @${global.nameown}`, {
+say(`🌸 𝗩𝗬𝗥𝗔𝗡𝗫-𝗠𝗗 By @${global.nameown}`, {
   font: 'console',
   align: 'center',
   colors: ['green']

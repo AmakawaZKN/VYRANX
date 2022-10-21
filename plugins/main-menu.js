@@ -299,7 +299,7 @@ let tek = `
 `
 const listMessage = {
   text: tek,
-  footer: '© FANGZ XD | ALL RESERVED',
+  footer: 'VYRANX | ZYKUAN',
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `LIST MENU`,

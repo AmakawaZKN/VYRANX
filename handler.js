@@ -1297,7 +1297,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
                             
- /* conn.sendButtonDoc(id, wm, text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Aʟᴅɪ X Aɪsʏᴀʜ', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
+ /* conn.sendButtonDoc(id, wm, text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Vyranx X Zykuan', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram/b4c00t4an_s3l3b',
     mediaType: 2, 
     description: sgc,
@@ -1307,17 +1307,17 @@ export async function participantsUpdate({ id, participants, action }) {
     sourceUrl: sgc
      }}
   })*/
-  let welcom = 'https://telegra.ph/file/35f17bb371d308504bc46.jpg'
+  let welcom = 'https://telegra.ph/file/9e7a27fedeef1a49b1241.jpg'
 
-  let godbye = 'https://telegra.ph/file/b44e48066aed4fb7ad291.jpg'
+  let godbye = 'https://telegra.ph/file/1867e84e9bce5fbaf8c9f.jpg'
   conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Aʟᴅɪ X Aɪsʏᴀʜ', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com',
     mediaType: 2, 
-    description: sgc,
-    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+    description: sig,
+    title: "Follow anying",
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? welcom : godbye)).buffer(),
-    sourceUrl: sgc
+    sourceUrl: sig
      }}
   })
   
@@ -1342,11 +1342,11 @@ export async function participantsUpdate({ id, participants, action }) {
 conn.sendButtonImg(id, `${pickRandom(flaaa2)}` + `Congratulation ` + '@user', 'Sᴇʟᴀᴍᴀᴛ Nᴀɪᴋ Jᴀʙᴀᴛᴀɴ', text, mentions: this.parseMention(text), { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://facebook.com/sadtime098',
     mediaType: 2, 
-    description: sgc,
+    description: sig,
     title: "Jᴀɴɢᴀɴ Lᴜᴘᴀ Mᴀɴᴅɪ!!",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: sgc
+    sourceUrl: sig
      }}
   })*/
             break

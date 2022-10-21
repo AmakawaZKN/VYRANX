@@ -2,9 +2,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*✧───────···────────✧*\n*Hallo Juga Kak Shinn Kangen Nih* \n *Gimana Kabar Nya? >~<*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*✧───────···────────✧*\n*Hallo Juga Kak Vyranx Kangen Nih* \n *Gimana Kabar Nya? >~<*', 'status@broadcast')
 }
-handler.customPrefix = /^(Hallo Fangzz|Hallo fangz|hi fangz|Hi Fangz)$/i
+handler.customPrefix = /^(Hallo Zykuan|Hallo zyy|hi Zykuan|Hi Zyy)$/i
 handler.command = new RegExp
 
 handler.owner = false
